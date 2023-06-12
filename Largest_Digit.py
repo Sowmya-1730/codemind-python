@@ -1,7 +1,7 @@
 n=int(input())
-lst=[]
-while n!=0:
+l=[]
+while n>0:
     r=n%10
-    lst.append(r)
+    l.append(r)
     n=n//10
-print(max(lst))
+print(max(l))
