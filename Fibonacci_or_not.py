@@ -1,13 +1,13 @@
 n=int(input())
 a=0
 b=1
-lst=[]
+l=[]
 for i in range(1,n+1):
-    lst.append(a)
     c=a+b
+    l.append(a)
     a=b
     b=c
-if n in lst:
-    print("True")
+if n in l:
+    print('True')
 else:
-    print("False")
+    print('False')
