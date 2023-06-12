@@ -1,8 +1,7 @@
-import math
 n=int(input())
-sr=int(math.sqrt(n))
-if sr*sr==n:
-    print("True")
+s=int(n**0.5)
+p=n**0.5
+if s==p:
+    print('True')
 else:
-    print("False")
-    
+    print('False')
